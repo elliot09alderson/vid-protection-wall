@@ -9,18 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^0.10.1",
+    "add": "^2.0.6",
+    "bun": "^1.1.30",
+    "drizzle-orm": "^0.34.1",
+    "next": "14.2.15",
+    "next-auth": "^5.0.0-beta.22",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.15"
+    "shadcn-ui": "^0.9.2"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "drizzle-kit": "^0.25.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15"
+    "typescript": "^5"
   }
 }
